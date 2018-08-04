@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node-dev src/index.js",
+    "mock": "node-dev mock/index.js",
+    "test": "mocha --timeout 5000 test/test.js"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "mocha": "^5.2.0",
+    "mockjs": "^1.0.1-beta3",
+    "node-fetch": "^2.2.0",
+    "supertest": "^3.1.0"
+  }
+}
